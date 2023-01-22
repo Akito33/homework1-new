@@ -12,7 +12,7 @@ header {
 main {
   width: 960px;
   margin: 50px auto;
-  display: inline-block;
+  display: flex;
 }
 
 .step-box {
@@ -69,58 +69,31 @@ footer {
   header{
     width:100%;
   }
-}
-
-@media screen and (max-width: 768px) {
   main{
     width:100%;
     display: block
   }
-}
-
-@media screen and (max-width: 768px) {
   step-box{
     width:100%;
   }
-}
-
-@media screen and (max-width: 768px) {
   step-box:last-child{
     width:100%;
   }
-}
-
-@media screen and (max-width: 768px) {
   step-img1{
     width:90%;
   }
-}
-
-@media screen and (max-width: 768px) {
   step-img2{
     width:90%;
   }
-}
-
-@media screen and (max-width: 768px) {
   step-img3{
     width:90%;
   }
-}
-
-@media screen and (max-width: 768px) {
   step-num{
     width:100%;
   }
-}
-
-@media screen and (max-width: 768px) {
   title{
     width:100%;
   }
-}
-
-@media screen and (max-width: 768px) {
   footer{
     width:100%;
   }
